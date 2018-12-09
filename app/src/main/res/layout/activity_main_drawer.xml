@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#008577"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:paddingTop="38dp"
+            android:text="Daily"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/close_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="15dp"
+            android:onClick="onClick"
+            android:src="@drawable/baseline_clear_white_18dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/nav_daily_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="일기쓰기" />
+
+    <Button
+        android:id="@+id/nav_fragment_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="일기장" />
+
+    <Button
+        android:id="@+id/nav_fragment_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="뮤직플레이어" />
+
+    <Button
+        android:id="@+id/nav_fragment_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="주소록" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008577"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="기타 기능"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nav_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="지도" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="left|center"
+        android:background="@null"
+        android:onClick="onClick"
+        android:text="환경설정" />
+</LinearLayout>
